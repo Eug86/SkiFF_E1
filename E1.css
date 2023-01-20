@@ -1,0 +1,59 @@
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 20px 170px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.inner-header {
+	display: flex;
+}
+
+.hr-line {
+	margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 5px solid #DE5620;
+}
+
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+
+.wrap { 
+    width: 50%;
+}
+
+.wrap div {
+    background: #fc0;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.table{
+	border: 0px solid #eee;
+	table-layout: fixed;
+	width: 50%;
+	margin-bottom: 20px;
+}
